@@ -1,0 +1,168 @@
+
+.home-page {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height:100vh;
+    top: -30px;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    margin-top: -2px;
+    margin-bottom: -1px;
+    font-size: 2rem;
+}
+
+#text {
+    margin-bottom: 4%;
+    font-size: large;
+}
+
+h2 {
+    position: relative;
+    bottom: 30px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 4rem;
+    margin-bottom: -5px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 5px;
+    align-content: stretch;
+    
+   }
+
+   
+#statusPost {
+    display: flex;
+    flex-direction: column;
+    margin-left: -30px;
+    border-style: solid;
+  border-color: yellow;
+  box-shadow: 0px 0px 5px 0px;
+  width: 45vw;
+  
+}
+
+.postList {
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+
+.container {
+    
+    display: flex;
+    bottom: 40px;
+    background-color: white;
+    width: 50%;
+    height: 22%;
+    box-shadow: 0px 0px 5px 0px;
+
+
+}
+
+.search-space {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+}
+
+.search {
+    
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   justify-content: center;
+   top: -2%;
+    left:15px;
+}
+
+.post-flex {
+    display: flex;
+    flex-direction: row;
+    height:125px;
+    
+}
+
+.post-button {
+    position: relative;
+    top: 6px;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    color: white;
+    background: #000;
+    border-radius: 0px 5px 5px 0px;
+    
+
+}
+
+.textbox-search {
+    outline: none;
+    border-radius: 0px 5px 5px 0px
+}
+.search-icon {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 40px;
+    
+}
+
+.status-box {
+    border-radius:  5px 0px 0px 5px;
+    position: relative;
+    
+    width: 30vw;
+    top:6px;
+    left: 0px;
+    outline: none;
+    vertical-align: top;
+    text-align: left;
+    resize: none
+    
+}
+
+.megaphone-icon {
+   
+    margin-left: 10%;
+    width: 50%;
+    
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    background-color: white;
+    width: 50%;
+    height: 60%;
+    box-shadow: 0px 0px 5px 0px;
+    
+    
+    
+    
+
+
+}
+
+.container2:after {
+
+    
+    content: "THE DAILY VOICE";
+    font-size: 4vw;
+    font-family: 'Fredericka the Great', cursive;
+    position: absolute;
+    color: rgba(2, 2, 2, 0.281);
+    z-index: -1;
+    
+}
+
+
+
+
+

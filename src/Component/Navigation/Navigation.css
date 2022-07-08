@@ -1,0 +1,29 @@
+.Out{
+    position: sticky;
+    top:0;
+    z-index: 100;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+#logOut {
+    
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px 0px 4px 4px;
+    cursor: pointer;
+    
+}
+
+#img-power {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+
+}

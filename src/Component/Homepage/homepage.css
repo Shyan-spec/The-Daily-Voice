@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Oswald:wght@500&display=swap');
+
+/*
+    Full screen yellow background
+*/
+
+.title-page { 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:80vh;
+    
+}
+
+/*
+    Header THE DAILY VOICE
+*/
+
+h1 { 
+    display: flex;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 4vw;
+    
+}
+
+/*
+    Login Container
+*/
+
+.login { 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-shadow: 0px 0px 5px 0px ;
+border-radius: 1%;
+width: 500px;
+height: 300px;
+
+
+	background: linear-gradient(-45deg,white, yellow, white,white);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/*
+    USER AND PASSWORD FIELDS
+*/
+
+.user-and-pass {
+    position: relative;
+    gap:10px;
+ display: flex;
+ flex-direction: column;
+align-items: center;
+top:20px;
+
+}
+
+/*
+    UserName Flexbox
+*/
+
+.user {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*
+ User Name TextBox
+*/
+
+#username { 
+    height: 2.5vh;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+/*
+    Password Text Box
+*/
+#password {
+    height:25px;
+    
+}
+
+/*
+    PassWord Flexbox
+*/
+
+.pass {
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+    Username Text
+*/
+
+#uname {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+}
+
+/*
+Password Text
+*/
+
+#pword {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+
+}
+
+#signUp {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 4px 4px 4px 4px;
+    width:110px;
+    height: 30px;
+    top:11%;
+    left:180px;
+   
+    
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;;
+}
+
+
+#signIn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 4px 4px 4px 4px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+#forgot {
+    color: black;
+    margin-top: 1%;
+}
